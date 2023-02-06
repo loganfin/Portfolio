@@ -14,7 +14,7 @@ li, a {
     text-decoration: none;
 }
 
-body {
+html {
     background: #f2f2f2;
 }
 
@@ -24,15 +24,19 @@ body {
     align-items: center;
     padding: 30px 26%;
     background: #ffffff;
+    /* choose either borders or drop shadows*/
+    /*
     border-color: #bababa;
     border-width: 1px;
     border-bottom-style: solid;
+    */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     /*
     font-family: "Press Start 2P";
     text-align: center;
     color: white;
     font-size: 32px;
-    */
+     */
 }
 
 .nav_links {
