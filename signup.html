@@ -12,18 +12,26 @@
     </script>
     <script>
       $(function(){
-        $("#header").load("header.html");
-        $("#footer").load("footer.html");
+        $(".header").load("header.html");
+        $(".footer").load("footer.html");
       });
     </script>
   </head>
   <body>
-    <div id="header"></div>
-
-    <div>
-      <h1>Sign Up</h1>
+    <div class="wrapper">
+      <div class="header"></div>
+      <div class="main">
+        <h1 class="title">Sign Up</h1>
+        <div class="signin_form">
+          <form action="about.html">
+            <input type="text" id="username" placeholder="Enter a username"><br>
+            <input type="text" id="password" placeholder="Enter a password"><br>
+            <input type="text" id="password" placeholder="Confirm your password"><br>
+            <input type="submit" value="Submit" id="button"><br>
+          </form>
+        </div>
+      </div>
+      <div class="footer"></div>
     </div>
-
-    <div id="footer"></div>
   </body>
 </html>
